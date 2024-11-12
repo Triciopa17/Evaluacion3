@@ -51,7 +51,7 @@ def ejercicio2():
             resultado = f"El nombre más largo es : {nombre2}"
             resultado2 = f"El nombre tiene : {len_nombre2} caracteres"
         else:
-            resultado = f"El nombre más largo es {nombre3} con {len_nombre3} caracteres."
+            resultado = f"El nombre más largo es : {nombre3}"
             resultado2 = f"El nombre tiene : {len_nombre3} caracteres"
         return render_template('ejercicio2.html', resultado=resultado, resultado2=resultado2)
     return render_template('ejercicio2.html')
